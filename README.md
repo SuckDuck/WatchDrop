@@ -11,7 +11,7 @@ system before continue with this installation.
 
 ````
 git clone https://github.com/SuckDuck/WatchDrop.git
-cd watchdrop
+cd WatchDrop
 git clone https://github.com/btzy/nativefiledialog-extended.git
 cd nativefiledialog-extended
 mkdir build
