@@ -10,7 +10,7 @@ system before continue with this installation.
 ## Build and Install
 
 ````
-git clone "this url"
+git clone https://github.com/SuckDuck/WatchDrop.git
 cd watchdrop
 git clone https://github.com/btzy/nativefiledialog-extended.git
 cd nativefiledialog-extended
@@ -34,7 +34,7 @@ you specify one then `watchdrop` is going to live until it's child process has e
 * **-ig \<filename>**: It ignores a file, even if it is affected by other flags. It is intended to exclude special files from the other flags
 
 ## Examples
-This command should continuously monitor a user's Downloads folder looking for songs, so once the user downloads one, a pop-up asking where to save it jumps up for the user, working similarly to when you download an image from your browser, but for songs
+This command should continuously monitor an user's Downloads folder looking for songs, so once the user downloads one, a pop-up asking where to save it jumps up for the user, working similarly to when you download an image from your browser, but for songs
 ```
 watchdrop -me .mp3 /home/user/Downloads
 ```
